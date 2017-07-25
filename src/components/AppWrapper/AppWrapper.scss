@@ -1,0 +1,23 @@
+.app-wrapper {
+  display: flex;
+  flex: 1;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  &__team-wrapper, &__employees-wrapper {
+    margin-top: 20px;
+  }
+
+  &__header {
+  	color: #45b9f1;
+  	font-size: 24px;
+  	margin-bottom: 30px;
+  }
+  &__footer {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 15px;
+  }
+}
